@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    font-size: 60px;
+}
+.container1{
+    border: solid 0.5px black;
+    padding: 20px;
+    margin: 100px auto;
+      text-align: center;
+      width: 400px;
+  }
+  .btn {
+    background-color: #8E8E8E;
+    border: 0;
+    border-radius: 3px;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #111;
+    width: 40px;
+    height: 40px;
+    text-align: left;
+    position: relative;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .btn span {
+  font-size: 16px;
+  line-height: 40px;
+  }
+  
+  .btn:active {
+  top: 1px;
+  box-shadow: 1px 1px 2px #000;
+  }
+  
+  .btn i {
+  margin-right: 10px
+  }
+  
+  .facebook {
+  background-color: #3B5998;
+  }
+  
+  .facebook i {
+    float: left;
+    width: 44px;
+    height: 40px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAoCAYAAACFFRgXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAN1JREFUeNpi/P//P8NQAoyjDh518KiDRx086uBh62AtIOZE4r8A4qcUmwpyMJWxKxA//I8J2qlhPguVQ9UMiLcAMRutoo2Jyub10tKxtEjDb4FYCIn/C4jXA/FHIN4BZQ8qB38AYn4k/kQgLhjMSQIdfB/saXhIlMMGQDwHic2MJHcBiE8h8ZsoLYup4WAbID5MhLq/QMxLaTKhZ5K4SY00TU8HX6CKKVSulh/SojpGxkOulBh18KiDRx086uDRxg9eoIvW46BOx3O0mz/q4FEHjzp41MGjDiYXAAQYAJmVcB6iaE2HAAAAAElFTkSuQmCC") no-repeat center center;
+  }
+.input{
+    box-sizing: border-box;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+    margin-left: 35%;
+  }
+  .tienda{
+    background-color: #8E8E8E;
+    border: 0;
+    border-radius: 3px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px #111;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    padding: 0;
+  }
+  @media (min-width: 360px),(max-width: 640px){
+    nav ul {
+    min-width:400px;
+    }
+    .container1{
+        border: solid 0.5px black;
+        padding: 20px;
+        margin: 100px auto;
+          text-align: center;
+          width: 300px;
+      }
+    .btn {
+        background-color: #8E8E8E;
+        border: 0;
+        border-radius: 3px;
+        color: #FFF;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px #111;
+        width: 80%;
+        height: 40px;
+        text-align: left;
+        position: relative;
+        padding: 0;
+        margin: 10px 0;
+      }
+      .container{
+        margin-left:5%;
+    }
+}
+@media (min-width: 1024px){
+    #nav1, #nav2, #nav3 {
+      width: 33%;
+    }
+  }
+  @media (min-width: 720px){
+    #nav1, #nav2, #nav3 {
+      width: 33%;
+    }
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style/login.css" type="text/css">
+    <link rel="stylesheet" href="style/menu.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>ShoppingLists</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Inicio</a>
+        <a href="login.html">Iniciar Sesion</a>
+        <a href="suscribe.html">Suscribete</a>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menú</span>
+    
+    <main id="main">
+        <div id="login-box">
+                <div class="left">
+                  <h1>Iniciar Sesion</h1>
+                  
+                  <input id="id_email" type="text" name="id_email" placeholder="E-mail" />
+                  <input id="id_password" type="password" name="id_password" placeholder="Contraseña" />
+                  
+                  <input onclick="login1()" id="registrarse" type="submit" name="signup_submit" value="Iniciar sesion" />
+                  <div class="col right">
+                    <button onclick="login()" id="login" class="btn facebook" data-provider="facebook"><i></i><span>Facebook</span></button>
+
+                </div>
+                </div> 
+
+        </div>
+    </main>
+        <script src="app/facebookApi.js"></script>
+        <script src="app/registerApi.js"></script>
+        <script src="app/menu.js"></script>
+</body>           
+</html>
